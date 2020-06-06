@@ -1,4 +1,3 @@
-const ipc = require('electron').ipcRenderer;
 const axios = require('axios');
 function fetchData(){
     axios.get('http://localhost:8888')
